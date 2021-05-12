@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #0b31a4;
+    font-size: 16px;
+    font-weight: 500px;
+    text-transform: uppercase;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 90vh;
+    position: relative;
+}
+.banner h1{
+
+color: #fff;
+
+font-size: 65px;
+
+text-transform: uppercase;
+}
+.hg{
+    align-items: center;
+    height: 90vh;
+}
+.icon{
+    
+color: #fff;
+    
+font-size: 30px;
+    
+position: absolute;
+    
+left: 50%;
+    
+top: 70%;
+    
+transform: translateX(-50%);
+animation: updown 3s linear infinite ;
+animation-direction: alternate;
+}
+@keyframes updown{
+    0%{
+        top:75%
+    }
+    100%{
+        top:80%
+    }
+
+}
+.lawyer{
+    padding-top: 80px;
+
+}
+.lawyer h1{
+
+color: #0F32AB;
+}
+.lawyer p{
+    text-size-adjust: ;
+}
+.lawyer img{
+    
+display: flex;
+}

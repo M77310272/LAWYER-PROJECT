@@ -105,7 +105,8 @@
     color: #0F32AB;
     font-size: 45px;
     text-align: center;
-    
+    /* margin-top: -20px; */
+    margin-bottom: 96px;
 }
 .text{
     transform: translate(-20px, -220px);
@@ -180,7 +181,7 @@
 
 }
 .language h2{
-     color: #0F32AB;
+    color: #0F32AB;
     font-size: 30px;
 
 }
@@ -254,10 +255,16 @@ footer ul {
     justify-content: flex-end;
     list-style: none;
     letter-spacing: 15px;
-    font-size: 23px;
+    font-size: 20px;
+    color: #fff !important;
+   
 }
 footer p ul a{
+    color: #fff !important;
+}
+footer ul{
     color: #fff;
+
 }
 
 
